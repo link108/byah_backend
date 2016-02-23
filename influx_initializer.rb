@@ -28,8 +28,5 @@ end
 
 influxdb.query_last_n_min('memory', '5d')
 
-# influxdb.write_to_influx('gotPwned', 'pwnedOrg', 'pwner', 'pwnerOrg')
-# influxdb.write_to_influx('gotPwned', {:values => 'hi'}, timestamp=Time.now.to_i)
-
 puts 'seeded database'
 
